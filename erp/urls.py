@@ -19,6 +19,8 @@ from qlns.views import *
 from khovan.views import *
 from khachhang.views import *
 from django.conf import settings
+from django.views.static import serve 
+from django.conf.urls import url 
 
 from django.conf.urls.static import static
 
