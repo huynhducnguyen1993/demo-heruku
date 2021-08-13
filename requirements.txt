@@ -117,7 +117,7 @@ tablib==3.0.0
 toml==0.10.2
 tornado==6.1
 traitlets==5.0.5
-ttystatus==0.38
+#ttystatus==0.38
 #ubuntu-advantage-tools==27.2
 #ubuntu-drivers-common==0.0.0
 ufw==0.36
