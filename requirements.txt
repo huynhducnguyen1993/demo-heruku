@@ -120,7 +120,7 @@ traitlets==5.0.5
 #ttystatus==0.38
 #ubuntu-advantage-tools==27.2
 #ubuntu-drivers-common==0.0.0
-ufw==0.36
+#ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.25.8
 usb-creator==0.3.7
