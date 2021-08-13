@@ -113,4 +113,6 @@ urlpatterns = [
     path('kho-van/thu-kho-can-xu-ly/<int:code_id>',Formxulynhapkho.as_view(),name="form-thu-kho-can-xu-ly"),
     path('kho-van/thu-kho-treo/',Thukho_Treo.as_view(),name="thu-kho-treo"),
     path('dieu-chuyen-kho/',Dieuchuyenkho.as_view(),name="dieu-chuyen-kho"),
+    url(r'^media/(?P<path>.*)$', serve,{'document_root':       settings.MEDIA_ROOT}), 
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
               ]+ static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
